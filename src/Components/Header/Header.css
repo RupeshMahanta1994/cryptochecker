@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: rgb(245, 222, 192);
+    overflow: hidden;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.Logo>span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.SearchBar {
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(244, 238, 230);
+    padding: 0.5em;
+    border-radius: .5rem;
+    margin-right: 5em;
+}
+
+.SearchBar>input {
+    width: 15rem;
+    border: none;
+    outline: none;
+    padding: 0.2em;
+    margin-left: 0.7em;
+    background: transparent;
+}

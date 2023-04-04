@@ -1,0 +1,40 @@
+.Footer {
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(245, 222, 192);
+    padding: 1em 2em;
+
+}
+
+.Logo {
+    display: flex;
+
+    gap: 0.5rem;
+}
+
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.FooterSocialIcons {
+    width: 10rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    color: rgb(88, 88, 118);
+}
+
+span {
+    font-size: 0.8rem;
+}

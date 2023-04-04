@@ -1,0 +1,80 @@
+.Market {
+
+    box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.75);
+    padding: 1.5em;
+    border-radius: 1rem;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #fff;
+}
+
+.IndividualCoin {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.CoinName {
+    font-size: 1.5rem;
+}
+
+.CoinSymbol {
+    font-size: 1.5rem;
+}
+
+.CoinDetails {
+    display: flex;
+}
+
+.MarketDetails>h2 {
+    margin-bottom: 0.5em;
+    font-size: 1.5rem;
+}
+
+.MarketDetailsItems {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.MarketDetailsItem {
+    width: 14rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    padding: 1em;
+    position: relative;
+}
+
+.MarketDetailsItem>h5 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.MarketDetailsItem>p {
+    font-size: 1.1rem;
+}
+
+
+
+.InfoDiv {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background-color: rgb(205, 200, 200);
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}

@@ -1,0 +1,18 @@
+.Card {
+    width: 10rem;
+    box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.75);
+    padding: 1.5em;
+    border-radius: 1rem;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    background-color: #fff;
+
+}
+
+.Card>img {
+    width: 3.5rem;
+
+}
