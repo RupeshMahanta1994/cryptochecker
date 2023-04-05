@@ -8,7 +8,7 @@ import { FilterList } from "@mui/icons-material";
 
 function HomePage() {
     const [coinList, setCoinList] = useState([]);
-    const [filteredList, setFilteredList] = useState(coinList);
+    const [filteredList, setFilteredList] = useState([]);
     const [userInput, setUserInput] = useState("");
 
     useEffect(() => {
