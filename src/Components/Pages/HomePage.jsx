@@ -13,7 +13,7 @@ function HomePage() {
     const [showActiveCoin, setShowActiveCoin] = useState(false)
 
     useEffect(() => {
-        Axios.get("https://api.coinstats.app/public/v1/coins?skip=0&limit=50").then(
+        Axios.get("https://api.coinstats.app/public/v1/coins?skip=0&limit=52").then(
             (response) => {
                 setCoinList(response.data.coins);
             }
