@@ -1,3 +1,10 @@
+.CoinContainer {
+    position: fixed;
+    top: 150px;
+    left: 0;
+}
+
+
 .Market {
 
     box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.75);
@@ -8,12 +15,18 @@
     flex-direction: column;
     gap: 0.5rem;
     background-color: #fff;
+    position: relative;
 }
 
 .IndividualCoin {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+.IndividualCoin>img {
+    width: 6rem;
+    border-radius: 50%;
 }
 
 .CoinName {
@@ -79,4 +92,28 @@
     text-transform: uppercase;
     cursor: pointer;
 
+}
+
+.Cross {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.InfoDiv:hover+.popUp {
+    display: block;
+}
+
+.popUp {
+    position: absolute;
+    background: rgb(245, 222, 192);
+    color: black;
+    padding: 1em;
+    border-radius: 0.5rem;
+    z-index: 10;
+    transform: translateY(-120px);
+    font-size: 0.8rem;
+    text-align: left;
+    display: none;
 }

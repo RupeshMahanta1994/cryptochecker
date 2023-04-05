@@ -9,7 +9,7 @@
     gap: 0.5rem;
     align-items: center;
     background-color: #fff;
-    cursor: pointer;
+
     transition: all 0.4s;
 
 }
@@ -18,7 +18,27 @@
     scale: 1.1;
 }
 
+.Card:hover img {
+    transform: translate(0, -14px);
+    scale: 1.5;
+}
+
 .Card>img {
     width: 3.5rem;
+    border-radius: 50%;
+    transition: all 0.4s;
+
+}
+
+.Card>h3 {
+    text-align: center;
+}
+
+button {
+    padding: 0.5em 1em;
+    font-weight: 500;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
 
 }
