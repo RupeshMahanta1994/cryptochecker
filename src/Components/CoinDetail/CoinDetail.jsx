@@ -1,7 +1,7 @@
 import "./CoinDetail.css"
 
 function CoinDetail({ data }) {
-    return (
+    return (data &&
         <div className="CoinContainer">
 
             <div className="Market">
@@ -19,7 +19,9 @@ function CoinDetail({ data }) {
                         <div className="MarketDetailsItem">
                             <h5>market cap</h5>
                             <p>{data.marketCap}</p>
-                            <div className="InfoDiv">!</div>
+                            <div className="InfoDiv">!
+
+                            </div>
                         </div>
                         <div className="MarketDetailsItem">
                             <h5>volume(24H)</h5>
@@ -44,6 +46,7 @@ function CoinDetail({ data }) {
                         <div className="MarketDetailsItem">
                             <h5>availabel supply</h5>
                             <p>{data.availableSupply}</p>
+                            <div className="InfoDiv">!</div>
                         </div>
                         <div className="MarketDetailsItem">
                             <h5>pri e change(1h)</h5>

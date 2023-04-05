@@ -9,7 +9,13 @@
     gap: 0.5rem;
     align-items: center;
     background-color: #fff;
+    cursor: pointer;
+    transition: all 0.4s;
 
+}
+
+.Card:hover {
+    scale: 1.1;
 }
 
 .Card>img {

@@ -1,7 +1,7 @@
 import "./MediaCard.css"
 
 export default function MediaCard({ data }) {
-    return (
+    return (data &&
         <div className="Card">
             <img src={data.icon} alt="" />
             <h5>{data.symbol}</h5>
